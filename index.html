@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Easy travel</title>
+  
+</head>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f8fc;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  color: #005f99;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #005f99;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+section {
+  margin: 40px 0;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #005f99;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff6600;
+}
+
+/* Back to top link styling */
+section p a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #005f99;
+  font-weight: bold;
+}
+
+section p a:hover {
+  color: #ff6600;
+}
+
+p{
+ text-align: center;   
+}
+
+form button[type="submit"] {
+  background-color: #007bff;   /* normal blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;   /* darker blue on hover */
+}
+
+
+</style>
+<body>
+  <!-- Top of the page -->
+  <div id="top">
+    <h1>
+        Welcome to Easy Travel
+    </h1>
+  </div>
+
+  <!-- TODO: Add main heading here -->
+  <!-- TODO: Add introduction paragraph here -->
+
+  <!-- Navigation Menu -->
+  <nav>
+     <ul>
+        <li><a href="/">Home</a></a></li>
+        <li><a href="#book">Ticket Booking></a></li>
+        <li><a href="#Contact">Contact></a></li>
+     </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <p> Home</p>
+    <img src="WhatsApp Image 2025-08-28 at 3.10.52 PM.jpeg" width="95%"><br>
+    
+    <!-- TODO: Add image with alt text -->
+    <a href="#top">back to top></a>
+  </section>
+
+
+
+<!-- Book Ticket Section -->
+  <section id="book">
+    <h2> Book your ticket</h2>
+    <!-- TODO: Add heading "Book Your Ticket" -->
+    <form>
+      <label> From</label><br>
+      <input type="text"><br>
+
+      <label> To</label> <br> 
+      <input type="text">  <br>
+      <label> Date of Journey</label><br>
+      <input type="date"><br>
+      <label> Ticket Type:</label><br>
+      <input type="radio" id="bus" name="Ticket Type" value="bus"><br>
+      <label for ="bus"> bus</label><br><br>
+
+      <input type="radio" id="train" name="Ticket Type" value="train"><br>
+      <label for ="train"> train</label><br>
+      <input type="radio" id="flight" name="Ticket Type" value="flight"><br>
+      <label for ="flight"> flight</label><br>
+
+      <button> Submit</button><br>
+      
+      <a href="#top">back to top></a>
+    </form>
+    <!-- TODO: Add Back to Top link -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <!-- TODO: Add heading "Contact Us" -->
+     <h3> Contact us</h3>
+    <form>
+
+      <label>Name:</label>
+
+      <input type="text" ><br>
+      <label>Email:</label>
+      <input type="email"> <br>
+      <label> Message</label>
+      <input type="text" ><br>
+      <button> Submit</button><br>
+
+
+      <a href="#top">back to top></a>
+    </form>
+    <!-- TODO: Add Back to Top link -->
+  </section>
+</body>
+</html>
+
+
